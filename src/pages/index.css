@@ -1,0 +1,139 @@
+nav.navbar.seja-real-nao-perfeito ,
+div.filler.seja-real-nao-perfeito  {
+    display: none !important;
+}
+
+.seja-real-nao-perfeito div.flowery_image {
+    top: 0;
+    width: 20vw;
+}
+
+.seja-real-nao-perfeito header.home {
+    margin-bottom: 0;
+}
+
+.seja-real-nao-perfeito h4.header-subtitle {
+    font-size: 16px;
+    margin-top: -16px;
+    margin-bottom: 32px;
+}
+
+.seja-real-nao-perfeito section.aboutMe .section-subtitle {
+    font-size: 1.2rem;
+    margin-top: -16px;
+    margin-bottom: 24px;
+}
+
+.seja-real-nao-perfeito section.aboutMe div.image-container {
+    width: 100%;
+}
+
+.seja-real-nao-perfeito div.shadow-custom,
+.seja-real-nao-perfeito .shadow-custom {
+    border: none;
+    margin-right: 0;
+    box-shadow: none !important;
+}
+
+section.investimento .shadow-custom {
+    /* border: 1px var(--pallete-portfolio-first) solid; */
+    box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important;
+    padding: 24px 16px;
+    margin-bottom: 48px;
+    background: var(--pallete-portfolio-second);
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(90deg, var(--pallete-portfolio-second) 0%, rgba(255, 255, 255, 1) 100%); */
+}
+
+section.investimento span.price {
+    font-size: medium;
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+section.investimento button {
+    margin-top: 16px;
+}
+
+section.investimento .inline {
+    
+}
+
+.seja-real-nao-perfeito section.investimento ul {
+    list-style-type: circle;
+}
+
+.seja-real-nao-perfeito section.investimento .formas-pagamento {
+    text-align: left;
+}
+
+.seja-real-nao-perfeito section.investimento .formas-pagamento li {
+    margin-top: 16px;
+}
+
+.seja-real-nao-perfeito .effect-phrase {
+    margin: 3rem 0 ;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--pallete-violet);
+}
+
+@media only screen and (max-width: 480px) {
+    .seja-real-nao-perfeito div.flowery_image {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: -10;
+        opacity: .25;
+    }
+
+    .seja-real-nao-perfeito header.home {
+        height: 100vh;
+    }
+
+    section.investimento .bigger.inline {
+        display: block;
+    }
+
+    section.investimento .shadow-custom {
+        /* border: 1px var(--pallete-portfolio-first) solid; */
+        box-shadow: 20px 20px 0px 5px var(--pallete-violet-dark) !important;
+        padding: 24px 16px;
+        margin-bottom: 48px;
+        background: var(--pallete-portfolio-second);
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background: linear-gradient(90deg, var(--pallete-portfolio-second) 0%, rgba(255, 255, 255, 1) 100%); */
+    }
+
+    section.investimento .shadow-custom {
+        margin-right: 28px;
+    }
+
+    section.investimento .shadow-custom h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .seja-real-nao-perfeito .effect-phrase {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .investimento div.bigger h3 {
+        font-size: 2rem;
+    }
+}

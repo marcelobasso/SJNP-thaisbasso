@@ -1,0 +1,32 @@
+footer {
+    background-color: var(--pallete-portfolio-second);
+}
+
+footer div.footerHi, footer div.footerHi span a {
+    background-color: var(--pallete-violet-dark);
+    color: white;
+}
+
+footer .container-custom {
+    margin: auto;
+}
+
+footer div.footerHi span a {
+    text-decoration: underline;
+}
+
+footer img.logo {
+    width: 80px;
+}
+
+i.heart {
+	color: white;
+	animation: beat 1s infinite alternate;
+	transform-origin: center;
+    padding: 0 4px;    
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.1); }
+}

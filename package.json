@@ -1,0 +1,44 @@
+{
+    "name": "comunidade seja real nao perfeito",
+    "private": true,
+    "description": "pagina para divulgacao da comunidade digital seja real nao perfeito, da nutricionista Thais Basso",
+    "homepage": ".",
+    "version": "0.1.0",
+    "license": "0BSD",
+    "scripts": {
+        "deploy": "gatsby build && gh-pages -d public",
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    },
+    "dependencies": {
+        "gatsby": "^5.7.0",
+        "gatsby-image": "^3.11.0",
+        "gatsby-plugin-cname": "^1.0.0",
+        "gatsby-plugin-git-lastmod": "^0.1.2",
+        "gatsby-plugin-image": "^3.7.0",
+        "gatsby-plugin-robots-txt": "^1.8.0",
+        "gatsby-plugin-sharp": "^5.7.0",
+        "gatsby-plugin-sitemap": "^6.9.0",
+        "gatsby-source-filesystem": "^5.7.0",
+        "gatsby-transformer-remark": "^6.7.0",
+        "gatsby-transformer-sharp": "^5.7.0",
+        "mdb-ui-kit": "^6.2.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marceloBasso/nutrithaisbasso"
+    },
+    "bugs": {
+        "url": "https://github.com/marceloBasso/nutrithaisbasso/issues"
+    },
+    "devDependencies": {
+        "gh-pages": "^5.0.0",
+        "svg-react-loader": "^0.4.6"
+    }
+}
