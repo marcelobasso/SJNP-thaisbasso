@@ -14,9 +14,9 @@ import { CallToAction, Container, Row, SectionTitle } from "../components/common
 
 export default function sejaRealNaoPerfeito(props) {
     // links to kiwify
-    const Link_1 = { name: "Assinatura Mensal (Passo Inicial)", url: "https://pay.kiwify.com.br/Vpfi86k", price: "R$ 178,88"}
-    const Link_2 = { name: "Assinatura Trimestral (Caminho da Transformação)", url: "https://pay.kiwify.com.br/iYgvDlt", price: "R$ 447,00 (R$ 149,00/mês)"}
-    const Link_3 = { name: "Assinatura Semestral (Rota do Sucesso)", url: "https://pay.kiwify.com.br/MqxlBNP", price: "R$ 789,00 (R$ 131,50/mês)"}
+    const Link_1 = { name: <>Assinatura Mensal <span className="break-mobile">(Passo Inicial)</span></>, url: "https://pay.kiwify.com.br/Vpfi86k", price: "R$ 178,88"}
+    const Link_2 = { name: <>Assinatura Trimestral <span className="break-mobile">(Caminho da Transformação)</span></>, url: "https://pay.kiwify.com.br/iYgvDlt", price: "R$ 447,00 (em até 3x)"}
+    const Link_3 = { name: <>Assinatura Semestral <span className="break-mobile">(Rota do Sucesso)</span></>, url: "https://pay.kiwify.com.br/MqxlBNP", price: "R$ 789,00 (em até 6x)"}
 
     const image = props.data.ProfileImageCampaign.childImageSharp.gatsbyImageData;
     const treatmentSection = [

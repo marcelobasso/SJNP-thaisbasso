@@ -130,6 +130,10 @@ section.investimento .inline {
     .seja-real-nao-perfeito .effect-phrase {
         font-size: 1rem;
     }
+
+    span.break-mobile {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 380px) {
